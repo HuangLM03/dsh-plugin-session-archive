@@ -1,0 +1,4 @@
+# Session archive manager: Host service + Web sidebar footer entry.
+- insert:
+    - id: session-archive
+      name: dsh-plugin-session-archive

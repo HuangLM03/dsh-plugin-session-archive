@@ -1,0 +1,66 @@
+{
+  "name": "dsh-plugin-session-archive",
+  "version": "1.0.0",
+  "description": "Browse archived DeepSeek Harness sessions from the sidebar footer, read full transcripts, and permanently delete them (including conversation logs).",
+  "type": "module",
+  "license": "MIT",
+  "author": "hugohe3",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "session",
+    "archive"
+  ],
+  "homepage": "https://github.com/hugohe3/dsh-plugin-session-archive#readme",
+  "bugs": {
+    "url": "https://github.com/hugohe3/dsh-plugin-session-archive/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugohe3/dsh-plugin-session-archive.git"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "LICENSE",
+    "README.md",
+    "README.zh.md"
+  ],
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-typert-protocol": ">=0.1.0-rc.6 <2"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    }
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  }
+}

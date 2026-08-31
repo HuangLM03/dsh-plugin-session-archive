@@ -4,8 +4,6 @@
 
 DeepSeek Harness 插件：管理**已归档会话**。归档会话不会出现在普通侧边栏列表里；本插件从侧边栏底部打开它们，阅读完整对话，并永久删除。
 
-**不会**把归档会话恢复到侧边栏。
-
 适用于 **Windows** 与 **macOS**（以及 Linux），以及 DSH Desktop / `dsh web`。
 
 ## 安装
@@ -26,10 +24,8 @@ DeepSeek Harness 插件：管理**已归档会话**。归档会话不会出现�
 
 ### 从 GitHub 安装
 
-仓库公开后：
-
 ```sh
-dsh plugin --profile desktop add github:hugohe3/dsh-plugin-session-archive
+dsh plugin --profile desktop add github:HuangLM03/dsh-plugin-session-archive
 ```
 
 ### 从本地目录安装
@@ -78,11 +74,6 @@ dsh plugin --profile desktop remove dsh-plugin-session-archive
 6. **刷新**：重新读取归档列表。点右上角 **×**，或点击面板外的遮罩关闭。
 
 界面语言跟随 DSH（中文 / English），颜色跟随当前主题。
-
-## 不会做的事
-
-- 不会把归档会话恢复到侧边栏
-- 不会修改未归档的当前会话
 
 ## 许可
 

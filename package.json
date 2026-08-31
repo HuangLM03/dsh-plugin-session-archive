@@ -4,7 +4,7 @@
   "description": "Browse archived DeepSeek Harness sessions from the sidebar footer, read full transcripts, and permanently delete them (including conversation logs).",
   "type": "module",
   "license": "MIT",
-  "author": "hugohe3",
+  "author": "HuangLM03",
   "keywords": [
     "deepseek",
     "deepseek-harness",
@@ -13,13 +13,13 @@
     "session",
     "archive"
   ],
-  "homepage": "https://github.com/hugohe3/dsh-plugin-session-archive#readme",
+  "homepage": "https://github.com/HuangLM03/dsh-plugin-session-archive#readme",
   "bugs": {
-    "url": "https://github.com/hugohe3/dsh-plugin-session-archive/issues"
+    "url": "https://github.com/HuangLM03/dsh-plugin-session-archive/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hugohe3/dsh-plugin-session-archive.git"
+    "url": "git+https://github.com/HuangLM03/dsh-plugin-session-archive.git"
   },
   "main": "lib/index.js",
   "exports": {

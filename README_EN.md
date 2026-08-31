@@ -4,8 +4,6 @@
 
 A DeepSeek Harness plugin for **archived sessions**. Archived sessions stay hidden from the normal sidebar list; this plugin opens them from the sidebar footer, lets you read the full transcript, and permanently deletes them.
 
-It does **not** restore / unarchive a session back into the sidebar.
-
 Works on **Windows** and **macOS** (and Linux), with DSH Desktop or `dsh web`.
 
 ## Install
@@ -26,10 +24,8 @@ Examples below use DSH Desktop. If you run `dsh web`, replace `desktop` with `we
 
 ### From GitHub
 
-After the repository is public:
-
 ```sh
-dsh plugin --profile desktop add github:hugohe3/dsh-plugin-session-archive
+dsh plugin --profile desktop add github:HuangLM03/dsh-plugin-session-archive
 ```
 
 ### From a local directory
@@ -78,11 +74,6 @@ Then restart. Use `web` instead of `desktop` if that is your profile.
 6. **Refresh** reloads the list. Close with **×**, or by clicking the mask outside the panel.
 
 The UI follows the current DSH locale (Chinese / English) and theme tokens.
-
-## What it does not do
-
-- It does not restore / unarchive a session into the sidebar.
-- It does not change sessions that are not archived.
 
 ## License
 

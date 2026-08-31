@@ -5,7 +5,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-OWNER="${GITHUB_OWNER:-hugohe3}"
+OWNER="${GITHUB_OWNER:-HuangLM03}"
 REPO="${GITHUB_REPO:-dsh-plugin-session-archive}"
 REMOTE="https://github.com/${OWNER}/${REPO}.git"
 

@@ -69,9 +69,10 @@ Then restart. Use `web` instead of `desktop` if that is your profile.
 1. Click **Archived Sessions** at the bottom of the sidebar (box icon when the sidebar is collapsed).
 2. The overlay lists archived sessions grouped by workspace, with title, archive order, and created time.
 3. **View** opens the full transcript (user / assistant / tool calls and results). Click again to hide it.
-4. **Delete** asks for confirmation, then removes the session from the archive list and deletes its on-disk log. This cannot be undone.
-5. **Select** enables multi-select. Choose sessions, click **Delete**, and confirm to permanently delete them in batch.
-6. **Refresh** reloads the list. Close with **×**, or by clicking the mask outside the panel.
+4. **Restore** returns the session to its original workspace and position so you can keep using it. Restore works one session at a time and takes effect immediately (no confirmation dialog). Until you click the session open in the sidebar, its row shows a "recently restored" marker that clears once opened.
+5. **Delete** asks for confirmation, then removes the session from the archive list and deletes its on-disk log. This cannot be undone.
+6. **Select** enables multi-select. Choose sessions, click **Delete**, and confirm to permanently delete them in batch. (Multi-select mode does not offer Restore.)
+7. **Refresh** reloads the list. Close with **×**, or by clicking the mask outside the panel.
 
 The UI follows the current DSH locale (Chinese / English) and theme tokens.
 

@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-session-archive",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Browse archived DeepSeek Harness sessions from the sidebar footer, read full transcripts, and permanently delete them (including conversation logs).",
   "type": "module",
   "license": "MIT",
